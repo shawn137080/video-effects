@@ -1,24 +1,24 @@
 {
   "name": "video-effects",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "effect_families": 25,
   "files": {
-    ".github/workflows/tests.yml": "2f26ad47086930aa651e560e5442a33f607cbd70b41d4af2395bca07390cc15b",
+    ".github/workflows/tests.yml": "582b9d4d33065281758672a11007f53b134880de1dfc453c2c10afaa6ef9d9f3",
     ".gitignore": "ec27921b850c0ebdbc80bfea1146b96bda12371413c0dc7e6f5a5a55b8dd1bb9",
     "CONTRIBUTING.md": "5c021fa943d117cd63cc98bf04dd59fdd8e7eb4d45747ad7cd363b6010cedfb1",
     "LICENSE": "e4a6c0e80074a577ccdd3b2bac23e6bbf7a9ea9aef18cb9f8e313810dd2862cf",
     "README.md": "e10245b61b3f8c7ec510b468139c263877ada4e7ca642d25ec3731aa0d8bd262",
     "README.zh-CN.md": "725e6781f26471895221abf81a90b6fb75161a7f4fe61d4f561bc63595131965",
     "THIRD-PARTY.md": "fa1907c426ce0f43e6f3c9b2414896c7b61ae5d3a2813c358eb8c1b37f57b3df",
-    "VALIDATION.md": "80f36997826a21ca754b1114a9df6a433ce18d37cd09cd15cda8672faf00953e",
+    "VALIDATION.md": "865bb2fb3dd631031486c3f17046281a08601b34d2b82ec4aff544ec8235a881",
     "examples/make_fixture.py": "8dc8a8f7d212fe848bdd51ee94c1973cbc911b911773ea380b32a09cb6f12eee",
     "install.py": "79b51c086fac0a2b6a2550b544f55540f70a83274c305fcfb070289ab8f0444e",
     "tests/render-smoke-results.json": "bbd36bdacdbb7845df19dc775516d56a6f38fbf70d9d6805466957075844815b",
     "tests/test_adapter.py": "bb2199c08e7a323d8f7d7375542810478d188ab9256a54597720c4a746f5a785",
-    "tests/test_distribution.py": "1a0449b652c9f915694963da95c6ffe3b6787723ef15907ba43ff4bfef015d2b",
+    "tests/test_distribution.py": "a1e97a8b659eb0d9cf21efb2722189b92a943f86388236934ab28de849c7cd94",
     "tests/test_scene_craft.py": "2574e9bd268b83d1b8478d10e7da74601e0738f3c6b8ecbfbafeb9af52ac5711",
-    "tools/release.py": "9601c92c8dad48226c985502a1228599691f813c961b95334cb84f3203ba2a9a",
+    "tools/release.py": "411710517f6e88241ec51710b4ffd3bad65538e5531e7bff0ca7a7b710a79f9d",
     "video-effects/LICENSE": "e4a6c0e80074a577ccdd3b2bac23e6bbf7a9ea9aef18cb9f8e313810dd2862cf",
     "video-effects/SKILL.md": "31a61497a6f9c514b1ad1517b3d8a51d6417fd8cdebaa4b7033c2c062509a191",
     "video-effects/agents/openai.yaml": "206179acc21c2c7171cd06e9c44e2f32579d484fd4e4fe8fbcc811e25b90b39a",
@@ -78,7 +78,7 @@
     "video-effects/scripts/prepare_media.py": "1de93b16b71a2e53d4eff1b5e879a114fbb3b21b2406e11fc0b26cb83471ea1e",
     "video-effects/scripts/render_audit.py": "e744a7d4e0e94652eb05eb9eb7fd75b489eb24e1b9bc2e9a1669bd552fea041d",
     "video-effects/scripts/runtime.py": "321a08000e52f172f8b9686cb67f1b870f7e1eeed255c6e5cf4d24dea4c2c8d8",
-    "video-effects/scripts/scene_craft.py": "efc1901e6a78411d20057c8733dc5b0c3a1b625a0ee2bbdfd06fc4aef9a84eb4",
+    "video-effects/scripts/scene_craft.py": "0759601c0152f54ee6adfbc0ec8eed163641024d13a0a204cc088f37687191cd",
     "video-effects/scripts/scene_phone.js": "f1360a7b26720c9f128404a5a919c7c4c35c03315de2f4fa62666b9ef608d6a3"
   }
 }

@@ -374,7 +374,7 @@ def scene(p,b,index):
     if n==11:body+=f'<style>#{id("header")} strong,#{id("header")} span,#{id("lower")} .sc-name{{color:#14202a;text-shadow:none}}</style>'
     # Hierarchy belongs to the same complete scene as the live effects.
     # Keep decorative shading below legible effect text; source layers supply depth.
-    body+=f'<div id="{id("header")}" class="sc-header"><strong>{e(p["header"])}</strong><span>{e(d.get('subText',p['headerSub']))}</span></div>'
+    body+=f'<div id="{id("header")}" class="sc-header"><strong>{e(p["header"])}</strong><span>{e(d.get("subText",p["headerSub"]))}</span></div>'
     if n:
         main=d.get('mainText',FAMILIES[n]);sub=d.get('subText',SUBS[n]);size=min(93,round(900/max(len(main),1)*1.65))
         body+=f'<div id="{id("lower")}" class="sc-lower"><div class="sc-count">{list(FAMILIES).index(n)+1:02d} / 25</div><div class="sc-name" style="font-size:{size}px">{e(main)}</div></div>'

@@ -26,7 +26,7 @@ def files(root=ROOT):
   result.append(f)
  return result
 
-def manifest(root=ROOT):return {'name':'video-effects','version':'1.0.0','license':'MIT','effect_families':25,'files':{str(f.relative_to(root)):digest(f) for f in files(root)}}
+def manifest(root=ROOT):return {'name':'video-effects','version':'1.0.1','license':'MIT','effect_families':25,'files':{str(f.relative_to(root)):digest(f) for f in files(root)}}
 def main():
  p=argparse.ArgumentParser();p.add_argument('--manifest',action='store_true');p.add_argument('--check',action='store_true');p.add_argument('--output',type=Path);a=p.parse_args();m=manifest()
  if a.manifest:(ROOT/'MANIFEST.json').write_text(json.dumps(m,indent=2)+'\n')

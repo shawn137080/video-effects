@@ -1,4 +1,4 @@
-import hashlib,importlib.util,json,shutil,subprocess,sys,tempfile,unittest
+import ast,hashlib,importlib.util,json,shutil,subprocess,sys,tempfile,unittest
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 s=importlib.util.spec_from_file_location('release_tools',ROOT/'tools/release.py');release=importlib.util.module_from_spec(s);s.loader.exec_module(release)
@@ -9,6 +9,9 @@ class DistributionTests(unittest.TestCase):
   p=self.root/'package';(p/'video-effects').mkdir(parents=True);shutil.copy2(ROOT/'install.py',p/'install.py');entry=p/'video-effects/SKILL.md';entry.write_text('Verified skill');(p/'video-effects/private.txt').write_text('must not install')
   (p/'MANIFEST.json').write_text(json.dumps({'files':{'video-effects/SKILL.md':hashlib.sha256(entry.read_bytes()).hexdigest()}}));return p
  def install(self,p,extra=None):return subprocess.run([sys.executable,str(p/'install.py'),'--agent','codex','--root',str(self.root/'skills'),*(extra or [])],capture_output=True,text=True)
+ def test_all_sources_use_supported_python_grammar(self):
+  for path in ROOT.rglob('*.py'):
+   if '.git' not in path.parts:ast.parse(path.read_text(),filename=str(path),feature_version=(3,10))
  def test_only_manifest_payload_installs(self):
   p=self.package();r=self.install(p);self.assertEqual(r.returncode,0,r.stderr);self.assertFalse((self.root/'skills/video-effects/private.txt').exists())
  def test_upgrade_keeps_user_runtime_and_full_backup(self):

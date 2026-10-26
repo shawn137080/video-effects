@@ -1,0 +1,477 @@
+[
+  {
+    "id": 1,
+    "slug": "orbit",
+    "name": "Orbit",
+    "name_zh": "环绕",
+    "content_fit": "Reveal several related assets around a presenter",
+    "needs": "matte + 3–6 source cards",
+    "template": "scripts/scene_craft.py",
+    "common_params": [
+      "inputFile",
+      "startTime",
+      "duration",
+      "mainText",
+      "subText",
+      "accentColor",
+      "mediaFile"
+    ],
+    "guide": "references/parameters.md"
+  },
+  {
+    "id": 2,
+    "slug": "chat-takeover",
+    "name": "Chat Takeover",
+    "name_zh": "对话接管",
+    "content_fit": "Show a conversation or question/payoff exchange",
+    "needs": "1–4 short items",
+    "template": "scripts/scene_craft.py",
+    "common_params": [
+      "inputFile",
+      "startTime",
+      "duration",
+      "mainText",
+      "subText",
+      "accentColor",
+      "mediaFile"
+    ],
+    "guide": "references/parameters.md"
+  },
+  {
+    "id": 3,
+    "slug": "frame-escape",
+    "name": "Frame Escape",
+    "name_zh": "人物出框",
+    "content_fit": "Emphasize breaking a visual boundary",
+    "needs": "matched matte",
+    "template": "scripts/scene_craft.py",
+    "common_params": [
+      "inputFile",
+      "startTime",
+      "duration",
+      "mainText",
+      "subText",
+      "accentColor",
+      "mediaFile"
+    ],
+    "guide": "references/parameters.md"
+  },
+  {
+    "id": 4,
+    "slug": "snap-zoom",
+    "name": "Snap Zoom",
+    "name_zh": "镜头缩放",
+    "content_fit": "Hit an emphasis or follow an expansion/contraction gesture",
+    "needs": "source; optional measured zoomKeys",
+    "template": "scripts/scene_craft.py",
+    "common_params": [
+      "inputFile",
+      "startTime",
+      "duration",
+      "mainText",
+      "subText",
+      "accentColor",
+      "mediaFile"
+    ],
+    "guide": "references/parameters.md"
+  },
+  {
+    "id": 5,
+    "slug": "checklist",
+    "name": "Checklist",
+    "name_zh": "逐项清单",
+    "content_fit": "Explain an actual sequence or completed steps",
+    "needs": "1–4 short items",
+    "template": "scripts/scene_craft.py",
+    "common_params": [
+      "inputFile",
+      "startTime",
+      "duration",
+      "mainText",
+      "subText",
+      "accentColor",
+      "mediaFile"
+    ],
+    "guide": "references/parameters.md"
+  },
+  {
+    "id": 6,
+    "slug": "headline-storm",
+    "name": "Headline Storm",
+    "name_zh": "标题轰炸",
+    "content_fit": "Resolve competing headlines into one hook",
+    "needs": "1–3 short items + payoff",
+    "template": "scripts/scene_craft.py",
+    "common_params": [
+      "inputFile",
+      "startTime",
+      "duration",
+      "mainText",
+      "subText",
+      "accentColor",
+      "mediaFile"
+    ],
+    "guide": "references/parameters.md"
+  },
+  {
+    "id": 7,
+    "slug": "zoom-portal",
+    "name": "Zoom Portal",
+    "name_zh": "缩放传送门",
+    "content_fit": "Reveal another view through an expanding iris",
+    "needs": "mediaFile",
+    "template": "scripts/scene_craft.py",
+    "common_params": [
+      "inputFile",
+      "startTime",
+      "duration",
+      "mainText",
+      "subText",
+      "accentColor",
+      "mediaFile"
+    ],
+    "guide": "references/parameters.md"
+  },
+  {
+    "id": 8,
+    "slug": "growth-metric",
+    "name": "Growth Metric",
+    "name_zh": "数据图表",
+    "content_fit": "Make real numeric progress legible",
+    "needs": "2–8 dataPoints + dataSource",
+    "template": "scripts/scene_craft.py",
+    "common_params": [
+      "inputFile",
+      "startTime",
+      "duration",
+      "mainText",
+      "subText",
+      "accentColor",
+      "mediaFile"
+    ],
+    "guide": "references/parameters.md"
+  },
+  {
+    "id": 9,
+    "slug": "studio-reveal",
+    "name": "Studio Reveal",
+    "name_zh": "摄影棚",
+    "content_fit": "Reveal a staged setting at a gaze or gesture",
+    "needs": "matched matte",
+    "template": "scripts/scene_craft.py",
+    "common_params": [
+      "inputFile",
+      "startTime",
+      "duration",
+      "mainText",
+      "subText",
+      "accentColor",
+      "mediaFile"
+    ],
+    "guide": "references/parameters.md"
+  },
+  {
+    "id": 10,
+    "slug": "broll-overlay",
+    "name": "B-roll Overlay",
+    "name_zh": "视窗展示",
+    "content_fit": "Show evidence while the speaker remains visible",
+    "needs": "mediaFile",
+    "template": "scripts/scene_craft.py",
+    "common_params": [
+      "inputFile",
+      "startTime",
+      "duration",
+      "mainText",
+      "subText",
+      "accentColor",
+      "mediaFile"
+    ],
+    "guide": "references/parameters.md"
+  },
+  {
+    "id": 11,
+    "slug": "paper-cutout",
+    "name": "Paper Cutout",
+    "name_zh": "剪片贴纸",
+    "content_fit": "Give a portrait a tactile sticker treatment",
+    "needs": "matched matte",
+    "template": "scripts/scene_craft.py",
+    "common_params": [
+      "inputFile",
+      "startTime",
+      "duration",
+      "mainText",
+      "subText",
+      "accentColor",
+      "mediaFile"
+    ],
+    "guide": "references/parameters.md"
+  },
+  {
+    "id": 12,
+    "slug": "dolly-zoom",
+    "name": "Dolly Zoom",
+    "name_zh": "眩晕变焦",
+    "content_fit": "Emphasize surprise with subject/background separation",
+    "needs": "matched matte + mediaFile",
+    "template": "scripts/scene_craft.py",
+    "common_params": [
+      "inputFile",
+      "startTime",
+      "duration",
+      "mainText",
+      "subText",
+      "accentColor",
+      "mediaFile"
+    ],
+    "guide": "references/parameters.md"
+  },
+  {
+    "id": 13,
+    "slug": "magazine-cover",
+    "name": "Magazine Cover",
+    "name_zh": "杂志封面",
+    "content_fit": "Hold a pose as an editorial cover",
+    "needs": "freezeFrame or matched freezeFile",
+    "template": "scripts/scene_craft.py",
+    "common_params": [
+      "inputFile",
+      "startTime",
+      "duration",
+      "mainText",
+      "subText",
+      "accentColor",
+      "mediaFile"
+    ],
+    "guide": "references/parameters.md"
+  },
+  {
+    "id": 14,
+    "slug": "liquid-glass",
+    "name": "Liquid Glass",
+    "name_zh": "液态玻璃",
+    "content_fit": "Present a short UI-like message with optical depth",
+    "needs": "source + short text",
+    "template": "scripts/scene_craft.py",
+    "common_params": [
+      "inputFile",
+      "startTime",
+      "duration",
+      "mainText",
+      "subText",
+      "accentColor",
+      "mediaFile"
+    ],
+    "guide": "references/parameters.md"
+  },
+  {
+    "id": 15,
+    "slug": "zoom-through-cut",
+    "name": "Zoom Through Cut",
+    "name_zh": "推进切穿",
+    "content_fit": "Push from a matched outgoing detail to a new shot",
+    "needs": "nextFile; optional mediaFile",
+    "template": "scripts/scene_craft.py",
+    "common_params": [
+      "inputFile",
+      "startTime",
+      "duration",
+      "mainText",
+      "subText",
+      "accentColor",
+      "mediaFile"
+    ],
+    "guide": "references/parameters.md"
+  },
+  {
+    "id": 16,
+    "slug": "green-screen",
+    "name": "Green Screen",
+    "name_zh": "去背合成",
+    "content_fit": "Explain evidence placed behind the presenter",
+    "needs": "matched matte + mediaFile",
+    "template": "scripts/scene_craft.py",
+    "common_params": [
+      "inputFile",
+      "startTime",
+      "duration",
+      "mainText",
+      "subText",
+      "accentColor",
+      "mediaFile"
+    ],
+    "guide": "references/parameters.md"
+  },
+  {
+    "id": 17,
+    "slug": "frame-break",
+    "name": "Frame Break",
+    "name_zh": "画框碎裂",
+    "content_fit": "Break a boundary at an impact gesture",
+    "needs": "matched matte; refined mode also breakStill",
+    "template": "scripts/scene_craft.py",
+    "common_params": [
+      "inputFile",
+      "startTime",
+      "duration",
+      "mainText",
+      "subText",
+      "accentColor",
+      "mediaFile"
+    ],
+    "guide": "references/parameters.md"
+  },
+  {
+    "id": 19,
+    "slug": "phone-mockup",
+    "name": "3D Phone Mockup",
+    "name_zh": "立体手机",
+    "content_fit": "Show a vertical screen or video in a procedural handset",
+    "needs": "source",
+    "template": "scripts/scene_craft.py",
+    "common_params": [
+      "inputFile",
+      "startTime",
+      "duration",
+      "mainText",
+      "subText",
+      "accentColor",
+      "mediaFile"
+    ],
+    "guide": "references/parameters.md"
+  },
+  {
+    "id": 21,
+    "slug": "timer",
+    "name": "Timer",
+    "name_zh": "计时器",
+    "content_fit": "Make a duration visible beside a relevant action",
+    "needs": "optional timerSeconds; refined mode timerTrack",
+    "template": "scripts/scene_craft.py",
+    "common_params": [
+      "inputFile",
+      "startTime",
+      "duration",
+      "mainText",
+      "subText",
+      "accentColor",
+      "mediaFile"
+    ],
+    "guide": "references/parameters.md"
+  },
+  {
+    "id": 22,
+    "slug": "media-wall",
+    "name": "Media Wall",
+    "name_zh": "媒体墙",
+    "content_fit": "Show a small collection with foreground depth",
+    "needs": "matched matte + 3–6 cards",
+    "template": "scripts/scene_craft.py",
+    "common_params": [
+      "inputFile",
+      "startTime",
+      "duration",
+      "mainText",
+      "subText",
+      "accentColor",
+      "mediaFile"
+    ],
+    "guide": "references/parameters.md"
+  },
+  {
+    "id": 23,
+    "slug": "spotlight",
+    "name": "Spotlight",
+    "name_zh": "聚光引导",
+    "content_fit": "Direct attention to one point",
+    "needs": "source",
+    "template": "scripts/scene_craft.py",
+    "common_params": [
+      "inputFile",
+      "startTime",
+      "duration",
+      "mainText",
+      "subText",
+      "accentColor",
+      "mediaFile"
+    ],
+    "guide": "references/parameters.md"
+  },
+  {
+    "id": 24,
+    "slug": "freeze-callout",
+    "name": "Freeze Callout",
+    "name_zh": "定格标注",
+    "content_fit": "Hold a meaningful completed pose and annotate it",
+    "needs": "freezeFrame",
+    "template": "scripts/scene_craft.py",
+    "common_params": [
+      "inputFile",
+      "startTime",
+      "duration",
+      "mainText",
+      "subText",
+      "accentColor",
+      "mediaFile"
+    ],
+    "guide": "references/parameters.md"
+  },
+  {
+    "id": 25,
+    "slug": "before-after",
+    "name": "Before / After",
+    "name_zh": "前后对比",
+    "content_fit": "Compare genuinely corresponding views",
+    "needs": "mediaFile",
+    "template": "scripts/scene_craft.py",
+    "common_params": [
+      "inputFile",
+      "startTime",
+      "duration",
+      "mainText",
+      "subText",
+      "accentColor",
+      "mediaFile"
+    ],
+    "guide": "references/parameters.md"
+  },
+  {
+    "id": 26,
+    "slug": "text-behind",
+    "name": "Text Behind",
+    "name_zh": "人物后方大字",
+    "content_fit": "Emphasize a concise word with subject occlusion",
+    "needs": "matched matte",
+    "template": "scripts/scene_craft.py",
+    "common_params": [
+      "inputFile",
+      "startTime",
+      "duration",
+      "mainText",
+      "subText",
+      "accentColor",
+      "mediaFile"
+    ],
+    "guide": "references/parameters.md"
+  },
+  {
+    "id": 28,
+    "slug": "doodle",
+    "name": "Doodle",
+    "name_zh": "涂鸦线条",
+    "content_fit": "Draw attention to a direction or physical action",
+    "needs": "source",
+    "template": "scripts/scene_craft.py",
+    "common_params": [
+      "inputFile",
+      "startTime",
+      "duration",
+      "mainText",
+      "subText",
+      "accentColor",
+      "mediaFile"
+    ],
+    "guide": "references/parameters.md"
+  }
+]

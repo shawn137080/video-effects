@@ -1,0 +1,6 @@
+interface:
+  display_name: "Video Effects"
+  short_description: "25 reusable effects for source-bound vertical video"
+  default_prompt: "Use $video-effects to select and render a suitable effect on my clip, aligned to my gesture."
+policy:
+  allow_implicit_invocation: true

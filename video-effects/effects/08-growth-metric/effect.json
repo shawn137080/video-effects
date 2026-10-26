@@ -1,0 +1,19 @@
+{
+  "id": 8,
+  "slug": "growth-metric",
+  "name": "Growth Metric",
+  "name_zh": "数据图表",
+  "content_fit": "Make real numeric progress legible",
+  "needs": "2–8 dataPoints + dataSource",
+  "template": "scripts/scene_craft.py",
+  "common_params": [
+    "inputFile",
+    "startTime",
+    "duration",
+    "mainText",
+    "subText",
+    "accentColor",
+    "mediaFile"
+  ],
+  "guide": "references/parameters.md"
+}

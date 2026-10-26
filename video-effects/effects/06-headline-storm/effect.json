@@ -1,0 +1,19 @@
+{
+  "id": 6,
+  "slug": "headline-storm",
+  "name": "Headline Storm",
+  "name_zh": "标题轰炸",
+  "content_fit": "Resolve competing headlines into one hook",
+  "needs": "1–3 short items + payoff",
+  "template": "scripts/scene_craft.py",
+  "common_params": [
+    "inputFile",
+    "startTime",
+    "duration",
+    "mainText",
+    "subText",
+    "accentColor",
+    "mediaFile"
+  ],
+  "guide": "references/parameters.md"
+}

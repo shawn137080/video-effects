@@ -1,0 +1,242 @@
+{
+  "date": "2026-10-25",
+  "runtime": "HyperFrames 0.7.109 / macOS / Chrome",
+  "fixture": "examples/make_fixture.py; synthetic geometry, silent audio, no person",
+  "compiler_sha256": {
+    "effects.py": "39c8101f87c07a9356de802747d405fe9ff2605f7c89713beef5a073db4fb6e2",
+    "scene_craft.py": "efc1901e6a78411d20057c8733dc5b0c3a1b625a0ee2bbdfd06fc4aef9a84eb4",
+    "scene_phone.js": "f1360a7b26720c9f128404a5a919c7c4c35c03315de2f4fa62666b9ef608d6a3"
+  },
+  "results": [
+    {
+      "effect": "01-orbit",
+      "frames": 108,
+      "video_sha256": "9575ab1f27ff85cf1b44e645fc101e2d6338112cbd8a44af8c9697c810dc0b89",
+      "native_check": "passed",
+      "full_decode": "passed",
+      "geometry": "1080x1920",
+      "fps": 30
+    },
+    {
+      "effect": "02-chat-takeover",
+      "frames": 108,
+      "video_sha256": "93e4862fc19697c24a864d47a119ff611606e2aad2aef7881bf290e491c5f04c",
+      "native_check": "passed",
+      "full_decode": "passed",
+      "geometry": "1080x1920",
+      "fps": 30
+    },
+    {
+      "effect": "03-frame-escape",
+      "frames": 108,
+      "video_sha256": "456d315dd4795aa6c48757ab4297c6f1e3d5169ac95907bd906c215821b7ec92",
+      "native_check": "passed",
+      "full_decode": "passed",
+      "geometry": "1080x1920",
+      "fps": 30
+    },
+    {
+      "effect": "04-snap-zoom",
+      "frames": 108,
+      "video_sha256": "72bfaae60c2b1ae04b6368a04221d2b53cdcf1304a9412ca87ffffe45afcd8d6",
+      "native_check": "passed",
+      "full_decode": "passed",
+      "geometry": "1080x1920",
+      "fps": 30
+    },
+    {
+      "effect": "05-checklist",
+      "frames": 108,
+      "video_sha256": "7d9e58c918f977b011b26677204f3d25229339b8c6f86d73f56aa7b7f01d8267",
+      "native_check": "passed",
+      "full_decode": "passed",
+      "geometry": "1080x1920",
+      "fps": 30
+    },
+    {
+      "effect": "06-headline-storm",
+      "frames": 108,
+      "video_sha256": "82bd2d57e296df43907033f0665c78058034030b6b07dca980bc43d156a6725f",
+      "native_check": "passed",
+      "full_decode": "passed",
+      "geometry": "1080x1920",
+      "fps": 30
+    },
+    {
+      "effect": "07-zoom-portal",
+      "frames": 108,
+      "video_sha256": "aa0935a06a120a38bcb7da5cb4265495cdf3368ee9d1591c67e7209ac5851ba6",
+      "native_check": "passed",
+      "full_decode": "passed",
+      "geometry": "1080x1920",
+      "fps": 30
+    },
+    {
+      "effect": "08-growth-metric",
+      "frames": 108,
+      "video_sha256": "4a20aba6952873801b7a0c540a7ca76b0307e466a7a44e0db0292e9a0a2d65f1",
+      "native_check": "passed",
+      "full_decode": "passed",
+      "geometry": "1080x1920",
+      "fps": 30
+    },
+    {
+      "effect": "09-studio-reveal",
+      "frames": 108,
+      "video_sha256": "0a7cff60ada23045d601d04264ab6956ae20b20ccfe9146ba533d78827b692ef",
+      "native_check": "passed",
+      "full_decode": "passed",
+      "geometry": "1080x1920",
+      "fps": 30
+    },
+    {
+      "effect": "10-broll-overlay",
+      "frames": 108,
+      "video_sha256": "1f9da940b916bdd1af2925cc4c35b9704dc05f4d580d1b1ba1497c02e98dc00c",
+      "native_check": "passed",
+      "full_decode": "passed",
+      "geometry": "1080x1920",
+      "fps": 30
+    },
+    {
+      "effect": "11-paper-cutout",
+      "frames": 108,
+      "video_sha256": "9e0ee36e7f06bf5a2de26d79282b8c977693007bf7d4eeaa5bce3c1c2fce79a7",
+      "native_check": "passed",
+      "full_decode": "passed",
+      "geometry": "1080x1920",
+      "fps": 30
+    },
+    {
+      "effect": "12-dolly-zoom",
+      "frames": 108,
+      "video_sha256": "009921393d5ad6319475a3b8fb1cc9e67172ffe88d648f8bba7ceaf2b501fc0a",
+      "native_check": "passed",
+      "full_decode": "passed",
+      "geometry": "1080x1920",
+      "fps": 30
+    },
+    {
+      "effect": "13-magazine-cover",
+      "frames": 108,
+      "video_sha256": "f08b1ec67bd42f1a9ab686b23676cc6f2b484ce55c56126506ff30a2ed86897b",
+      "native_check": "passed",
+      "full_decode": "passed",
+      "geometry": "1080x1920",
+      "fps": 30
+    },
+    {
+      "effect": "14-liquid-glass",
+      "frames": 108,
+      "video_sha256": "d23302ab1bdf5a72ecd3dc1cc37f008d50287b55f11ab73d12658fefa7ca532b",
+      "native_check": "passed",
+      "full_decode": "passed",
+      "geometry": "1080x1920",
+      "fps": 30
+    },
+    {
+      "effect": "15-zoom-through-cut",
+      "frames": 132,
+      "video_sha256": "4cb8a89379887bbea10018cd057be3fa467f03447c6d5475d20de7734d8c66a0",
+      "native_check": "passed",
+      "full_decode": "passed",
+      "geometry": "1080x1920",
+      "fps": 30
+    },
+    {
+      "effect": "16-green-screen",
+      "frames": 108,
+      "video_sha256": "437cc789b1b939be7c43994d28b5a00ca4daeca447796cdef6b63160315e0989",
+      "native_check": "passed",
+      "full_decode": "passed",
+      "geometry": "1080x1920",
+      "fps": 30
+    },
+    {
+      "effect": "17-frame-break",
+      "frames": 108,
+      "video_sha256": "63db4faa6232ffcd38af13a8e9d36789a588716902226c9d82ce984d66e8624f",
+      "native_check": "passed",
+      "full_decode": "passed",
+      "geometry": "1080x1920",
+      "fps": 30
+    },
+    {
+      "effect": "19-phone-mockup",
+      "frames": 108,
+      "video_sha256": "adfcc78dedddc4b32d5ef8262ec760720622860e9ee16d346b3c3bbe14a76682",
+      "native_check": "passed",
+      "full_decode": "passed",
+      "geometry": "1080x1920",
+      "fps": 30
+    },
+    {
+      "effect": "21-timer",
+      "frames": 108,
+      "video_sha256": "ac7bce1ac29768dbac5d8e6034782a0ea6f67d28e2756800b7fbd45e77566fc8",
+      "native_check": "passed",
+      "full_decode": "passed",
+      "geometry": "1080x1920",
+      "fps": 30
+    },
+    {
+      "effect": "22-media-wall",
+      "frames": 108,
+      "video_sha256": "904d33605f624548d0c41f75a6b0f5ec6d8acb55c8a98e295e2af9ee60e88dd2",
+      "native_check": "passed",
+      "full_decode": "passed",
+      "geometry": "1080x1920",
+      "fps": 30
+    },
+    {
+      "effect": "23-spotlight",
+      "frames": 108,
+      "video_sha256": "05d0560d2792a52f007f76725a6281ed9633d6aa757fb907255412f9e49c6943",
+      "native_check": "passed",
+      "full_decode": "passed",
+      "geometry": "1080x1920",
+      "fps": 30
+    },
+    {
+      "effect": "24-freeze-callout",
+      "frames": 108,
+      "video_sha256": "15e1cea8b158239975651283afa5671165e4ab02b8baa67ebbda44f4976e9403",
+      "native_check": "passed",
+      "full_decode": "passed",
+      "geometry": "1080x1920",
+      "fps": 30
+    },
+    {
+      "effect": "25-before-after",
+      "frames": 108,
+      "video_sha256": "7fa89e52788341611a1cf513f8b5915fdb52e103467f9b311150d5daaacbb0f3",
+      "native_check": "passed",
+      "full_decode": "passed",
+      "geometry": "1080x1920",
+      "fps": 30
+    },
+    {
+      "effect": "26-text-behind",
+      "frames": 108,
+      "video_sha256": "8431f07a8ff6a55402cba3d8a6b1dd254683847515499e565a6a7dc86f3f7ee0",
+      "native_check": "passed",
+      "full_decode": "passed",
+      "geometry": "1080x1920",
+      "fps": 30
+    },
+    {
+      "effect": "28-doodle",
+      "frames": 108,
+      "video_sha256": "d349d662a35a6f238dfff9f794981ff447971152c58b667245a7f1eaac8d55a7",
+      "native_check": "passed",
+      "full_decode": "passed",
+      "geometry": "1080x1920",
+      "fps": 30
+    }
+  ],
+  "limitations": [
+    "Default synthetic fixtures, not every parameter combination",
+    "No real human hair/hand tracking quality certification",
+    "Human audiovisual acceptance still required"
+  ]
+}

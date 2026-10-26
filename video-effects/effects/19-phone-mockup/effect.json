@@ -1,0 +1,19 @@
+{
+  "id": 19,
+  "slug": "phone-mockup",
+  "name": "3D Phone Mockup",
+  "name_zh": "立体手机",
+  "content_fit": "Show a vertical screen or video in a procedural handset",
+  "needs": "source",
+  "template": "scripts/scene_craft.py",
+  "common_params": [
+    "inputFile",
+    "startTime",
+    "duration",
+    "mainText",
+    "subText",
+    "accentColor",
+    "mediaFile"
+  ],
+  "guide": "references/parameters.md"
+}

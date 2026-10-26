@@ -1,0 +1,19 @@
+{
+  "id": 14,
+  "slug": "liquid-glass",
+  "name": "Liquid Glass",
+  "name_zh": "液态玻璃",
+  "content_fit": "Present a short UI-like message with optical depth",
+  "needs": "source + short text",
+  "template": "scripts/scene_craft.py",
+  "common_params": [
+    "inputFile",
+    "startTime",
+    "duration",
+    "mainText",
+    "subText",
+    "accentColor",
+    "mediaFile"
+  ],
+  "guide": "references/parameters.md"
+}

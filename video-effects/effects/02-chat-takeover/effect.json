@@ -1,0 +1,19 @@
+{
+  "id": 2,
+  "slug": "chat-takeover",
+  "name": "Chat Takeover",
+  "name_zh": "对话接管",
+  "content_fit": "Show a conversation or question/payoff exchange",
+  "needs": "1–4 short items",
+  "template": "scripts/scene_craft.py",
+  "common_params": [
+    "inputFile",
+    "startTime",
+    "duration",
+    "mainText",
+    "subText",
+    "accentColor",
+    "mediaFile"
+  ],
+  "guide": "references/parameters.md"
+}

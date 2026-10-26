@@ -1,0 +1,19 @@
+{
+  "id": 4,
+  "slug": "snap-zoom",
+  "name": "Snap Zoom",
+  "name_zh": "镜头缩放",
+  "content_fit": "Hit an emphasis or follow an expansion/contraction gesture",
+  "needs": "source; optional measured zoomKeys",
+  "template": "scripts/scene_craft.py",
+  "common_params": [
+    "inputFile",
+    "startTime",
+    "duration",
+    "mainText",
+    "subText",
+    "accentColor",
+    "mediaFile"
+  ],
+  "guide": "references/parameters.md"
+}

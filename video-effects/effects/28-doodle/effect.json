@@ -1,0 +1,19 @@
+{
+  "id": 28,
+  "slug": "doodle",
+  "name": "Doodle",
+  "name_zh": "涂鸦线条",
+  "content_fit": "Draw attention to a direction or physical action",
+  "needs": "source",
+  "template": "scripts/scene_craft.py",
+  "common_params": [
+    "inputFile",
+    "startTime",
+    "duration",
+    "mainText",
+    "subText",
+    "accentColor",
+    "mediaFile"
+  ],
+  "guide": "references/parameters.md"
+}

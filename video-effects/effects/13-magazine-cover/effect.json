@@ -1,0 +1,19 @@
+{
+  "id": 13,
+  "slug": "magazine-cover",
+  "name": "Magazine Cover",
+  "name_zh": "杂志封面",
+  "content_fit": "Hold a pose as an editorial cover",
+  "needs": "freezeFrame or matched freezeFile",
+  "template": "scripts/scene_craft.py",
+  "common_params": [
+    "inputFile",
+    "startTime",
+    "duration",
+    "mainText",
+    "subText",
+    "accentColor",
+    "mediaFile"
+  ],
+  "guide": "references/parameters.md"
+}

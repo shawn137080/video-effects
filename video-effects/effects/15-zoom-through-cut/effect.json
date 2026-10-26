@@ -1,0 +1,19 @@
+{
+  "id": 15,
+  "slug": "zoom-through-cut",
+  "name": "Zoom Through Cut",
+  "name_zh": "推进切穿",
+  "content_fit": "Push from a matched outgoing detail to a new shot",
+  "needs": "nextFile; optional mediaFile",
+  "template": "scripts/scene_craft.py",
+  "common_params": [
+    "inputFile",
+    "startTime",
+    "duration",
+    "mainText",
+    "subText",
+    "accentColor",
+    "mediaFile"
+  ],
+  "guide": "references/parameters.md"
+}

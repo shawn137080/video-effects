@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+runtime.local.json
+node_modules/
+outputs/
+dist/
+*.mp4
+*.mov
+*.MOV
+*.webm
+*.wav
+*.zip
+*.log

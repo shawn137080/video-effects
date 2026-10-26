@@ -1,0 +1,19 @@
+{
+  "id": 21,
+  "slug": "timer",
+  "name": "Timer",
+  "name_zh": "计时器",
+  "content_fit": "Make a duration visible beside a relevant action",
+  "needs": "optional timerSeconds; refined mode timerTrack",
+  "template": "scripts/scene_craft.py",
+  "common_params": [
+    "inputFile",
+    "startTime",
+    "duration",
+    "mainText",
+    "subText",
+    "accentColor",
+    "mediaFile"
+  ],
+  "guide": "references/parameters.md"
+}

@@ -1,0 +1,19 @@
+{
+  "id": 11,
+  "slug": "paper-cutout",
+  "name": "Paper Cutout",
+  "name_zh": "剪片贴纸",
+  "content_fit": "Give a portrait a tactile sticker treatment",
+  "needs": "matched matte",
+  "template": "scripts/scene_craft.py",
+  "common_params": [
+    "inputFile",
+    "startTime",
+    "duration",
+    "mainText",
+    "subText",
+    "accentColor",
+    "mediaFile"
+  ],
+  "guide": "references/parameters.md"
+}

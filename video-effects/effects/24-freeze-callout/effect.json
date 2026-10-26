@@ -1,0 +1,19 @@
+{
+  "id": 24,
+  "slug": "freeze-callout",
+  "name": "Freeze Callout",
+  "name_zh": "定格标注",
+  "content_fit": "Hold a meaningful completed pose and annotate it",
+  "needs": "freezeFrame",
+  "template": "scripts/scene_craft.py",
+  "common_params": [
+    "inputFile",
+    "startTime",
+    "duration",
+    "mainText",
+    "subText",
+    "accentColor",
+    "mediaFile"
+  ],
+  "guide": "references/parameters.md"
+}

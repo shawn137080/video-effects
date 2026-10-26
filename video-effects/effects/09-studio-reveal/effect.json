@@ -1,0 +1,19 @@
+{
+  "id": 9,
+  "slug": "studio-reveal",
+  "name": "Studio Reveal",
+  "name_zh": "摄影棚",
+  "content_fit": "Reveal a staged setting at a gaze or gesture",
+  "needs": "matched matte",
+  "template": "scripts/scene_craft.py",
+  "common_params": [
+    "inputFile",
+    "startTime",
+    "duration",
+    "mainText",
+    "subText",
+    "accentColor",
+    "mediaFile"
+  ],
+  "guide": "references/parameters.md"
+}

@@ -1,0 +1,19 @@
+{
+  "id": 16,
+  "slug": "green-screen",
+  "name": "Green Screen",
+  "name_zh": "去背合成",
+  "content_fit": "Explain evidence placed behind the presenter",
+  "needs": "matched matte + mediaFile",
+  "template": "scripts/scene_craft.py",
+  "common_params": [
+    "inputFile",
+    "startTime",
+    "duration",
+    "mainText",
+    "subText",
+    "accentColor",
+    "mediaFile"
+  ],
+  "guide": "references/parameters.md"
+}

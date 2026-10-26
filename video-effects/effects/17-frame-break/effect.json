@@ -1,0 +1,19 @@
+{
+  "id": 17,
+  "slug": "frame-break",
+  "name": "Frame Break",
+  "name_zh": "画框碎裂",
+  "content_fit": "Break a boundary at an impact gesture",
+  "needs": "matched matte; refined mode also breakStill",
+  "template": "scripts/scene_craft.py",
+  "common_params": [
+    "inputFile",
+    "startTime",
+    "duration",
+    "mainText",
+    "subText",
+    "accentColor",
+    "mediaFile"
+  ],
+  "guide": "references/parameters.md"
+}

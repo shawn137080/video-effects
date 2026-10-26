@@ -1,0 +1,19 @@
+{
+  "id": 7,
+  "slug": "zoom-portal",
+  "name": "Zoom Portal",
+  "name_zh": "缩放传送门",
+  "content_fit": "Reveal another view through an expanding iris",
+  "needs": "mediaFile",
+  "template": "scripts/scene_craft.py",
+  "common_params": [
+    "inputFile",
+    "startTime",
+    "duration",
+    "mainText",
+    "subText",
+    "accentColor",
+    "mediaFile"
+  ],
+  "guide": "references/parameters.md"
+}

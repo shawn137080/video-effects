@@ -1,0 +1,19 @@
+{
+  "id": 3,
+  "slug": "frame-escape",
+  "name": "Frame Escape",
+  "name_zh": "人物出框",
+  "content_fit": "Emphasize breaking a visual boundary",
+  "needs": "matched matte",
+  "template": "scripts/scene_craft.py",
+  "common_params": [
+    "inputFile",
+    "startTime",
+    "duration",
+    "mainText",
+    "subText",
+    "accentColor",
+    "mediaFile"
+  ],
+  "guide": "references/parameters.md"
+}

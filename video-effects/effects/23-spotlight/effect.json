@@ -1,0 +1,19 @@
+{
+  "id": 23,
+  "slug": "spotlight",
+  "name": "Spotlight",
+  "name_zh": "聚光引导",
+  "content_fit": "Direct attention to one point",
+  "needs": "source",
+  "template": "scripts/scene_craft.py",
+  "common_params": [
+    "inputFile",
+    "startTime",
+    "duration",
+    "mainText",
+    "subText",
+    "accentColor",
+    "mediaFile"
+  ],
+  "guide": "references/parameters.md"
+}

@@ -1,0 +1,19 @@
+{
+  "id": 25,
+  "slug": "before-after",
+  "name": "Before / After",
+  "name_zh": "前后对比",
+  "content_fit": "Compare genuinely corresponding views",
+  "needs": "mediaFile",
+  "template": "scripts/scene_craft.py",
+  "common_params": [
+    "inputFile",
+    "startTime",
+    "duration",
+    "mainText",
+    "subText",
+    "accentColor",
+    "mediaFile"
+  ],
+  "guide": "references/parameters.md"
+}

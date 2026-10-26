@@ -1,0 +1,19 @@
+{
+  "id": 10,
+  "slug": "broll-overlay",
+  "name": "B-roll Overlay",
+  "name_zh": "视窗展示",
+  "content_fit": "Show evidence while the speaker remains visible",
+  "needs": "mediaFile",
+  "template": "scripts/scene_craft.py",
+  "common_params": [
+    "inputFile",
+    "startTime",
+    "duration",
+    "mainText",
+    "subText",
+    "accentColor",
+    "mediaFile"
+  ],
+  "guide": "references/parameters.md"
+}

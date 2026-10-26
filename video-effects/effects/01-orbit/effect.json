@@ -1,0 +1,19 @@
+{
+  "id": 1,
+  "slug": "orbit",
+  "name": "Orbit",
+  "name_zh": "环绕",
+  "content_fit": "Reveal several related assets around a presenter",
+  "needs": "matte + 3–6 source cards",
+  "template": "scripts/scene_craft.py",
+  "common_params": [
+    "inputFile",
+    "startTime",
+    "duration",
+    "mainText",
+    "subText",
+    "accentColor",
+    "mediaFile"
+  ],
+  "guide": "references/parameters.md"
+}

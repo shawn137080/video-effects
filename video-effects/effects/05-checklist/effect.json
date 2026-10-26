@@ -1,0 +1,19 @@
+{
+  "id": 5,
+  "slug": "checklist",
+  "name": "Checklist",
+  "name_zh": "逐项清单",
+  "content_fit": "Explain an actual sequence or completed steps",
+  "needs": "1–4 short items",
+  "template": "scripts/scene_craft.py",
+  "common_params": [
+    "inputFile",
+    "startTime",
+    "duration",
+    "mainText",
+    "subText",
+    "accentColor",
+    "mediaFile"
+  ],
+  "guide": "references/parameters.md"
+}
